@@ -11,11 +11,12 @@
     <title>Calculator</title>   
     </head>
     <body>
+    <!--------Nav start---------->
     <div class="container">
     <div class="Calculator">
     <form>
     <div class="display">
-    <input type="text" name="display">
+    <input type="text" id="display" name="display" class="display" readonly>
     </div>
     <div>
     <input type="button" value="AC" onclick="display.value = '' "  class="operator">
@@ -24,8 +25,8 @@
     <input type="button" value="/" onclick="display.value += '/' " class="operator">
     </div>
     <div>
-        <input type="button" value="7" onclick="display.value += '7' ">
-        <input type="button" value="8" onclick="display.value += '8' " >
+    <input type="button" value="7" onclick="display.value += '7' " toClear().isResultDisplayed>
+    <input type="button" value="8" onclick="display.value += '8' " >
         <input type="button" value="9" onclick="display.value += '9' " >
         <input type="button" value="*" onclick="display.value += '*' "  class="operator">
         </div>
