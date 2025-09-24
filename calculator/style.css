@@ -49,3 +49,10 @@ form  input.equal{
  form input.operator{
     color: #33ffd8;
 }
+.scienceCal{
+    display: flex;
+    text-align: right;
+    flex: 30px;
+
+
+}

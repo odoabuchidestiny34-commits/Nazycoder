@@ -46,8 +46,18 @@
                     <input type="button" value="00" onclick="display.value += '00' ">
                     <input type="button" value="0" onclick="display.value += '0' ">
                     <input type="button" value="=" onclick="display.value = eval(display.value)" class="equal operator">
-
                     
+           <div class="scienceCal">        
+<input type="button" value="sin" onclick="calculateTrig('sin')">
+<input type="button" value="cos" onclick="calculateTrig ('cos')">
+<input type="button" value="tan" onclick="calculateTrig('tan')">
+
+
+<input type="button" value="x&sup2" onclick="calculatePower(2)">
+<input type="button" value="&radic;" onclick="calculateSqrt()">
+<input type="button" value="&sup3;&radic;" onclick="calculatePower(3)">
+</div> 
+
                     </div> 
     </form>
     </div>
